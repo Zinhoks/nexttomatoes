@@ -1,0 +1,71 @@
+.cardAndFormContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.cardSoloContainer {
+  /* background-color: red; */
+  height: 550px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardContainer {
+  /* background-color: white; */
+  width: fit-content;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1% auto;
+  padding-top: 15%;
+}
+
+.cardContainer a {
+  text-decoration: none;
+  color: black;
+}
+
+.imgContainer {
+  position: relative;
+  margin-bottom: 5%;
+  height: 300px;
+}
+
+.imgFilm {
+  object-fit: contain;
+  border-radius: 33px;
+}
+
+.movieTextContainer {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  height: 60px;
+  margin-top: 30%;
+}
+
+.movieTitle {
+  font-size: 0.7em;
+  min-height: 40px;
+  max-height: 80px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.movieNote {
+  font-size: 0.7em;
+  font-weight: 700;
+  max-height: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+

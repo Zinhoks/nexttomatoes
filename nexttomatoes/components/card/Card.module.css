@@ -1,0 +1,59 @@
+.cardContainer {
+  width: 20%;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+}
+
+.cardContainer a {
+  text-decoration: none;
+  color: black;
+}
+
+.imgContainer {
+  position: relative;
+  margin-bottom: 5%;
+  height: 300px;
+}
+
+.imgFilm {
+  object-fit: contain;
+  border-radius: 33px;
+}
+
+.movieTextContainer {
+  display: flex;
+  flex-direction: column;
+  min-width: 179px;
+  max-width: 180px;
+  height: 60px;
+  padding-left: 3%;
+}
+
+.movieTitle {
+  font-size: 0.7em;
+  min-height: 40px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.movieNote {
+  font-size: 0.7em;
+  font-weight: 700;
+  max-height: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.NoteEtFavContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}

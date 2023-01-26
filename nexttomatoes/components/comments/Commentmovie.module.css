@@ -1,0 +1,88 @@
+.commentFormContainer {
+  background-color: rgb(240, 240, 240);
+  border-radius: 20px;
+  margin-top: 21%;
+  height: 375px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.para {
+  font-weight: 700;
+}
+.itemContainer {
+  margin: 7% auto;
+}
+
+.labelRatingContainer {
+  width: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+#noteFilm {
+  width: 30%;
+  margin-left: 8%;
+  border-radius: 33px;
+  padding-left: 10px;
+}
+
+#textareaComment {
+  width: 350px;
+  height: 150px;
+  padding-left: 10px;
+  padding-top: 10px;
+  border-radius: 26px;
+}
+
+.button {
+  width: 100px;
+  height: 30px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+/* .formContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  background-color: blue;
+} */
+
+/*
+.itemContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 10%;
+}
+
+.button {
+  width: 100px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background-color: white;
+}
+
+#noteFilm {
+  width: 30%;
+  margin-left: 2%;
+}
+
+.para {
+  display: flex;
+  padding-bottom: 20%;
+  justify-content: center;
+  height: 5%;
+  width: 100%;
+} */

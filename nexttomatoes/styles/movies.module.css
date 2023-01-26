@@ -1,0 +1,16 @@
+.img {
+  width: initial;
+}
+
+.title {
+  font-size: 0.9em;
+}
+
+.listMovies {
+  width: 100%;
+  background-color: white;
+}
+
+.trash {
+  border: 0 none
+}
